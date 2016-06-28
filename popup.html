@@ -1,0 +1,225 @@
+<html>
+<style type="text/css">
+
+html {
+  background: url("login_background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     } 
+	body {
+    min-width:1000px;
+    min-height: 550px;
+    overflow: hidden;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.current{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+}
+p {
+    font-family: "Verdana";
+    font-size: 2.5vh;
+}
+</style>
+<link rel="stylesheet" href="awesomplete.css" />
+<script src="awesomplete.js" async></script>
+<body>
+
+<form>
+<div
+  style = "
+  top: 7vh;
+    left: 60vw;
+    opacity: 1;
+    position: fixed;">
+  <input size="25vw" type="text" id="gname" value="" autofocus>
+  </div>
+
+  <div
+  style = "
+    top: 7vh;
+    left: 85vw;
+    opacity: 1;
+    position: fixed;">
+  <button id="bgname" class="current">GO BY NAME</button>
+  </div>
+  </form>
+
+<div
+  style = "
+    top: 5.3vh;
+    left: 18vw;
+    opacity: 1;
+    position: fixed;">
+  <input type="image" id="idel" alt="Submit" width="30vw" height="30vh">
+</div>
+
+<form>
+<div
+  style = "
+    top: 2vh;
+    left: 60vw;
+    opacity: 1;
+    position: fixed;">
+  <input size="25vw" type="number" id="gnum" value="">
+  </div>
+
+  <div
+  style = "
+  top: 2vh;
+    left: 85vw;
+    opacity: 1;
+    position: fixed;">
+  <button id="bgnum" class="current">GO BY NUMBER</button>
+  </div>
+  </form>
+
+  <form>
+<div
+  style = "
+    top: 2vh;
+    left: 24vw;
+    opacity: 1;
+    position: fixed;">
+  <input size="30vw" type="text" id="rename" value="">
+  </div>
+
+  <div
+  style = "
+    top: 7vh;
+    left: 42vw;
+    opacity: 1;
+    position: fixed;">
+  <button id="brename" class="current">RENAME</button>
+  </div>
+  </form>
+
+<div
+  style = "
+    top: 7vh;
+    left: 24vw;
+    opacity: 1;
+    position: fixed;">
+  <font size="3vh" face="Baskerville Old Face" color="#4DFF00">rename current tab</font>
+  </div>
+
+  <form>
+
+  <div
+  style = "
+    top: 7vh;
+    left: 1.4vw;
+    opacity: 1;
+    position: fixed;">
+  <button id="ball" class="current">ALL</button>
+  </div>
+
+  <div
+  style = "
+    top: 7vh;
+    left: 7vw;
+    opacity: 1;
+    position: fixed;">
+  <button id="bcurrent" class="current">CURRENT</button>
+  </div>
+
+  </form>
+
+  <div
+  style = "
+    top: 2vh;
+    left: 1.4vw;
+    opacity: 1;
+    position: fixed;">
+  <font size="3vh" face="Baskerville Old Face" color="#4DFF00">RESET</font>
+  </div>
+
+<div
+  class = "scroll"
+  style ="
+    top: 12vh;
+    left: 2vw;
+    height: 79vh;
+    width: 200vw;
+    position: absolute;
+    overflow: scroll;"
+    id="dp">
+  <div
+  style = "
+    left: 4.5vw;
+    opacity: 1;
+    width: 2000px;
+    overflow: hidden;
+    position: absolute;
+    line-height: 2.5vh">
+  <p id="demo"></p>
+  </div>
+
+  </div>
+
+  <div
+  style = "
+    top: 93vh;
+    left: 2vw;
+    opacity: 1;
+    position: fixed;
+    overflow: hidden;
+    z-index: -1">
+  <font size="3vh" face="Baskerville Old Face" color="#0000FF">NOW</font><br>
+  </div>
+
+  <div
+  class = "scroll"
+  style = "
+    top: 96vh;
+    left: 2vw;
+    opacity: 1;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1">
+  <font size="2vh" face="Baskerville Old Face" color="#0000FF" id="present"></font>
+  </div>
+  <a
+  href = "developer.html"
+  class = "scroll"
+  style = "
+    top: 93vh;
+    left: 60vw;
+    opacity: 1;
+    overflow: hidden;
+    position: fixed;">
+  <font size="3vh" face="Baskerville Old Face" color="#0000FF">about the developer</font><br>
+  </a>
+
+  <a
+  href = "documentation.html"
+  class = "scroll"
+  style = "
+    top: 93vh;
+    left: 85vw;
+    opacity: 1;
+    overflow: hidden;
+    position: fixed;">
+  <font size="3vh" face="Baskerville Old Face" color="#0000FF">click here for documentation</font><br>
+  </a>
+<script src="jquery.js"></script>
+<script src="popup.js"></script>
+
+</script>
+</body>
+</html>
+
