@@ -8,6 +8,15 @@
 	"48": "Tabber48.png",
 	"128": "Tabber128.png"
 	   },
+  "commands" : {
+"_execute_browser_action": {
+        "suggested_key": {
+          "windows": "Alt+T",
+          "mac": "Alt+T",
+          "linux": "Alt+T"
+        }
+      }
+    },
   "version": "1.0",
   "permissions": [
           "tabs"
