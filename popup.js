@@ -316,7 +316,10 @@ function setarray(length,current_index)
 function go(event) 
 {
 	if(del_count == 0)
+	{
 		chrome.tabs.highlight({'tabs': event.target.param}, function (){});
+		window.location.reload();
+	}
 	else
 	{
 		var ind = event.target.param;
